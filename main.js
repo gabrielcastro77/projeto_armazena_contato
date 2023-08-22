@@ -16,7 +16,7 @@ function adicionaLinha() {
     let inputTelefone = document.getElementById('idtelefone');
 
     if (telefonesCadastrados.includes(Number(inputTelefone.value))) {
-        resultado.innerHTML = '<tr><td colspan="2" class="nao-cadastrado">Esse numero já foi cadastrado!</td></tr>'
+        resultado.innerHTML = '<tr><td colspan="2" class="nao-cadastrado">Esse número já foi cadastrado!</td></tr>'
     } else {
         NomesCadastrados.push(inputNome.value);
         telefonesCadastrados.push(parseFloat(inputTelefone.value));
